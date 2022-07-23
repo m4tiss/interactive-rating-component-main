@@ -2,7 +2,6 @@ let raiting=0;
 
 document.querySelector('.b1').onclick=function(){
     raiting=1;
-    console.log(rating);
 }
 
 document.querySelector('.b2').onclick=function(){

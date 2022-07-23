@@ -149,7 +149,13 @@ body{
     color: var(--button-end);
     margin-top: 4%;
     margin-left: 5%;
-
+  margin-right: 5%;
     text-align: center;
     font-family: 'Overpass', sans-serif;
   }
+
+  @media screen and (max-width: 600px){
+    .container{
+        width: 350px;
+    }
+}
